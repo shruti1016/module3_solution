@@ -1,0 +1,73 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url('restaurant.jpg');
+} 
+.navbar{
+    position: sticky;
+    top: 0px;
+    padding: 0px;
+    width: 100%; 
+    background-color: black;
+}
+#scroll{
+    transition-delay: 1s;
+    opacity: 75%;
+}
+.navbar-text{
+    color: #fff;
+    font-weight: bolder;
+    font-size: x-large; 
+    
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.col{
+    width: 1000px;
+}
+#box1{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    margin: 50px;
+    padding: 20px;
+}
+#box2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    margin: 50px;
+    padding: 20px;
+}
+#box3{
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;  
+    margin: 50px;
+    padding: 20px;
+}
+#chicken{
+    text-align: center;
+}
+#beef{
+    text-align: center;
+}
+#sushi{
+    text-align: center;
+}
+.container{
+    width: 100%;
+}
+
